@@ -1,0 +1,21 @@
+Compiling junit:
+      cd D:\КНУ 1 рік\JAVA\sample_projects\src
+      javac -cp junit-4.12.jar;hamcrest-core-1.3.jar;. *.java
+      java -cp junit-4.12.jar;hamcrest-core-1.3.jar;. -ea ComplexTest
+
+Compiling javaFX
+      cd Desktop
+      javac --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules javafx.controls Main.java
+      java  --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules javafx.controls Main
+
+Compiling Compute
+      cd C:\Users\Vlad_F\.IdeaIC2019.2\config\scratches
+      javac Compute.java
+      java Compute
+
+Compiling Divide
+      cd C:\Users\Vlad_F\.IdeaIC2019.2\config\scratches
+      javac Divide.java
+      java Divide
+
+
